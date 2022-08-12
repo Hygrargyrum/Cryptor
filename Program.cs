@@ -16,7 +16,6 @@ namespace Coder
 		
 		public void Main()
 		{
-		   //Debug();
 		   Menu();
 		}
 		
@@ -54,10 +53,6 @@ namespace Coder
 			Console.WriteLine($"Файл {file_name} успешно конвертирован.");
 		}
 		
-		public void Debug()
-		{
-			Console.WriteLine(Encoding.UTF8.GetBytes(";")[0]);
-		}
 		
 	}
 }
